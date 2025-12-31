@@ -1,6 +1,38 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
+  "name": "ai-trip-planner",
+  "version": "1.0.0",
+  "description": "A modern AI-powered trip planner built with React and Google AI Studio. Plan your perfect trip with customizable modes, transportation options, and intelligent itinerary generation.",
+  "author": {
+    "name": "Chethana G",
+    "email": "chethana.workspace@gmail.com",
+    "url": "https://github.com/chetx27"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chetx27/ai-trip-planner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chetx27/ai-trip-planner/issues"
+  },
+  "homepage": "https://github.com/chetx27/ai-trip-planner#readme",
+  "keywords": [
+    "ai",
+    "trip-planner",
+    "travel",
+    "itinerary",
+    "react",
+    "three.js",
+    "google-ai",
+    "gemini-api",
+    "trip-planning",
+    "travel-planner",
+    "vacation-planner",
+    "3d-ui",
+    "framer-motion",
+    "tailwind-css",
+    "react-three-fiber"
+  ],
   "private": true,
   "dependencies": {
     "@react-three/drei": "^10.7.7",
@@ -20,7 +52,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test:coverage": "react-scripts test --coverage --watchAll=false",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.{js,jsx}",
+    "format": "prettier --write src/**/*.{js,jsx,json,css,md}"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +74,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
   }
 }

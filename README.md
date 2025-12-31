@@ -1,36 +1,89 @@
 # AI Trip Planner ✈️
 
-A modern, AI-powered trip planner built with React and Google AI Studio. Plan your perfect trip with customizable modes (student, family, business), transportation options, and accommodation choices. Features a sleek 3D UI and intelligent itinerary generation.
+<div align="center">
 
-![React](https://img.shields.io/badge/React-19.2.3-blue)
-![Three.js](https://img.shields.io/badge/Three.js-0.182.0-black)
-![Framer Motion](https://img.shields.io/badge/Framer%20Motion-12.23.26-pink)
-![License](https://img.shields.io/badge/License-MIT-green)
+![React](https://img.shields.io/badge/React-19.2.3-blue?style=for-the-badge&logo=react)
+![Three.js](https://img.shields.io/badge/Three.js-0.182.0-black?style=for-the-badge&logo=three.js)
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-12.23.26-pink?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://github.com/chetx27/ai-trip-planner)
+
+**A modern, AI-powered trip planner built with React and Google AI Studio**
+
+Plan your perfect trip with customizable modes, transportation options, and intelligent itinerary generation
+
+[Demo](#-demo) • [Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Contributing](#-contributing)
+
+</div>
+
+---
+
+## 🎥 Demo
+
+> **Note:** Add a demo GIF or screenshot here to showcase your app!
+> 
+> Example:
+> ```markdown
+> ![AI Trip Planner Demo](./docs/demo.gif)
+> ```
+> 
+> **Quick Demo Setup:**
+> 1. Record a screen capture using [OBS Studio](https://obsproject.com/) or similar
+> 2. Convert to GIF using [ezgif.com](https://ezgif.com/)
+> 3. Add to `docs/` folder and update the link above
+
+### ✨ What Makes This Special?
+
+- 🎯 **Smart Itineraries**: AI-powered trip planning tailored to your preferences
+- 🌍 **Flexible Options**: Customize by travel mode, budget, and accommodation
+- 🎨 **Stunning 3D UI**: Immersive interface with Three.js and React Three Fiber
+- ⚡ **Lightning Fast**: Instant generation with optimized performance
+- 📱 **Fully Responsive**: Perfect experience on any device
 
 ---
 
 ## 🚀 Features
 
-- **Customizable Modes:** Choose between student, family, or business modes for tailored recommendations
-- **Transportation Options:** Select train, road, bus, or cab for your journey
-- **Accommodation Choices:** Pick from hostel, motel, hotel, or luxury hotel
-- **3D UI:** A visually stunning 3D interface for an immersive experience
-- **AI-Powered Itinerary:** Generate detailed, personalized itineraries with Google AI Studio (Gemini API)
-- **User-Friendly Design:** Clean, modern UI with intuitive navigation
-- **Responsive Design:** Works seamlessly on desktop, tablet, and mobile devices
-- **Real-time Generation:** Get instant trip suggestions powered by AI
+### Core Functionality
+- ✅ **Customizable Travel Modes**
+  - 🎓 Student Mode: Budget-friendly options and hostels
+  - 👨‍👩‍👧‍👦 Family Mode: Family-friendly activities and accommodations
+  - 💼 Business Mode: Professional stays and efficient itineraries
+
+- ✅ **Transportation Options**
+  - 🚂 Train
+  - 🚗 Road Trip
+  - 🚌 Bus
+  - 🚕 Cab/Taxi
+
+- ✅ **Accommodation Choices**
+  - 🏠 Hostel
+  - 🏨 Motel
+  - 🏩 Hotel
+  - ⭐ Luxury Hotel
+
+### Technical Features
+- 🤖 **AI-Powered**: Google Gemini API integration for intelligent suggestions
+- 🎭 **3D Interface**: Interactive 3D elements with React Three Fiber
+- 🎬 **Smooth Animations**: Framer Motion for fluid transitions
+- 🎨 **Modern Design**: Clean UI with Tailwind CSS
+- 🧪 **Well Tested**: Comprehensive test coverage with Jest and RTL
+- ♿ **Accessible**: WCAG 2.1 compliant design
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React 19.2.3
-- **3D Graphics:** React Three Fiber, Three.js
-- **Animation:** Framer Motion
-- **AI Integration:** Google AI Studio (Gemini API)
-- **Styling:** Tailwind CSS
-- **Testing:** React Testing Library, Jest
-- **Deployment:** GitHub Pages, Vercel, or Netlify
+| Category | Technologies |
+|----------|-------------|
+| **Frontend Framework** | React 19.2.3 |
+| **3D Graphics** | React Three Fiber, Three.js 0.182.0, @react-three/drei |
+| **Animations** | Framer Motion 12.23.26 |
+| **AI Integration** | Google Gemini API (AI Studio) |
+| **Styling** | Tailwind CSS |
+| **Testing** | Jest, React Testing Library |
+| **Build Tool** | Create React App / Vite |
+| **Deployment** | GitHub Pages, Vercel, Netlify |
 
 ---
 
@@ -38,140 +91,225 @@ A modern, AI-powered trip planner built with React and Google AI Studio. Plan yo
 
 ### Prerequisites
 
-Before you begin, ensure you have the following installed:
-- Node.js (v16 or higher)
-- npm or yarn
-- Git
+Ensure you have the following installed:
+- **Node.js**: v16.0.0 or higher ([Download](https://nodejs.org/))
+- **npm**: v7.0.0 or higher (comes with Node.js)
+- **Git**: Latest version ([Download](https://git-scm.com/))
 
-### Step 1: Clone the Repository
+### Quick Start
 
 ```bash
+# 1. Clone the repository
 git clone https://github.com/chetx27/ai-trip-planner.git
 cd ai-trip-planner
-```
 
-### Step 2: Install Dependencies
-
-```bash
+# 2. Install dependencies
 npm install
-```
 
-or if you prefer yarn:
-
-```bash
-yarn install
-```
-
-### Step 3: Set Up Environment Variables
-
-1. Create a `.env` file in the root directory:
-
-```bash
+# 3. Set up environment variables
 cp .env.example .env
-```
+# Edit .env and add your Google AI API key
 
-2. Get your Google AI Studio API key:
-   - Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
-   - Sign in with your Google account
-   - Create a new API key
-   - Copy the API key
-
-3. Add your API key to the `.env` file:
-
-```env
-REACT_APP_GOOGLE_AI_API_KEY=your_api_key_here
-```
-
-### Step 4: Run the Development Server
-
-```bash
+# 4. Start the development server
 npm start
 ```
 
-The app will open at [http://localhost:3000](http://localhost:3000)
+The app will automatically open at [http://localhost:3000](http://localhost:3000)
+
+### Environment Setup
+
+1. **Get Your Google AI API Key**
+   - Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
+   - Sign in with your Google account
+   - Click "Create API Key"
+   - Copy your API key
+
+2. **Configure `.env` File**
+   ```env
+   REACT_APP_GOOGLE_AI_API_KEY=your_api_key_here
+   REACT_APP_API_TIMEOUT=30000
+   REACT_APP_MAX_RETRIES=3
+   ```
+
+3. **Verify Setup**
+   ```bash
+   npm start
+   ```
+   If the app loads without errors, you're good to go!
 
 ---
 
 ## 🎯 Usage
 
-1. **Enter Your Destination:** Type in where you want to go
-2. **Select Trip Duration:** Choose how many days you plan to travel
-3. **Choose Travel Mode:** Pick student, family, or business mode
-4. **Select Transportation:** Choose your preferred mode of transport
-5. **Pick Accommodation:** Select your accommodation type
-6. **Generate Itinerary:** Click generate and let AI create your perfect trip plan!
+### Planning Your Trip
+
+1. **Enter Destination**: Type your desired travel destination
+2. **Set Duration**: Choose trip length (1-30 days)
+3. **Select Mode**: Pick student, family, or business mode
+4. **Choose Transport**: Select your preferred transportation
+5. **Pick Accommodation**: Choose where you want to stay
+6. **Generate**: Click generate and get your AI-powered itinerary!
+
+### Example Use Cases
+
+**Student Budget Trip**
+```
+Destination: Paris, France
+Duration: 5 days
+Mode: Student
+Transport: Train
+Accommodation: Hostel
+```
+
+**Family Vacation**
+```
+Destination: Orlando, Florida
+Duration: 7 days
+Mode: Family
+Transport: Cab
+Accommodation: Hotel
+```
+
+**Business Trip**
+```
+Destination: New York City
+Duration: 3 days
+Mode: Business
+Transport: Cab
+Accommodation: Luxury Hotel
+```
 
 ---
 
 ## 🚀 Deployment
 
-### Deploy to Vercel
+### Deploy to Vercel (Recommended)
 
-1. Push your code to GitHub
-2. Visit [Vercel](https://vercel.com)
-3. Import your repository
-4. Add your environment variables
-5. Deploy!
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/chetx27/ai-trip-planner)
+
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy
+vercel
+```
 
 ### Deploy to Netlify
 
-1. Build the project:
-
 ```bash
+# Build the project
 npm run build
-```
 
-2. Deploy the `build` folder to Netlify
+# Deploy using Netlify CLI
+npx netlify-cli deploy --prod --dir=build
+```
 
 ### Deploy to GitHub Pages
 
-1. Install gh-pages:
-
 ```bash
+# Install gh-pages
 npm install --save-dev gh-pages
-```
 
-2. Add to `package.json`:
-
-```json
+# Add to package.json
 "homepage": "https://chetx27.github.io/ai-trip-planner",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
 }
-```
 
-3. Deploy:
-
-```bash
+# Deploy
 npm run deploy
 ```
 
 ---
 
-## 📸 Screenshots
+## 🧪 Testing
 
-_Add screenshots of your application here_
+```bash
+# Run all tests
+npm test
+
+# Run tests with coverage
+npm test -- --coverage
+
+# Run tests in watch mode
+npm test -- --watch
+```
+
+### Test Coverage Goals
+- Unit Tests: >80% coverage
+- Integration Tests: Core user flows
+- E2E Tests: Critical paths
 
 ---
 
-## 🧪 Running Tests
+## 📁 Project Structure
 
-```bash
-npm test
+```
+ai-trip-planner/
+├── public/              # Static files
+├── src/
+│   ├── components/      # React components
+│   ├── services/        # API services
+│   ├── utils/          # Utility functions
+│   ├── styles/         # CSS/Tailwind styles
+│   ├── hooks/          # Custom React hooks
+│   ├── contexts/       # React contexts
+│   └── App.js          # Main app component
+├── docs/               # Documentation and assets
+├── .env.example        # Environment variables template
+├── package.json        # Dependencies
+└── README.md          # This file
 ```
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+Contributions make the open-source community amazing! Any contributions are **greatly appreciated**.
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+### How to Contribute
+
+1. **Fork the Project**
+2. **Create your Feature Branch**
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. **Commit your Changes**
+   ```bash
+   git commit -m '✨ Add some AmazingFeature'
+   ```
+4. **Push to the Branch**
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. **Open a Pull Request**
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
+### Development Guidelines
+- Write clean, readable code
+- Follow existing code style
+- Add tests for new features
+- Update documentation
+- Use meaningful commit messages
+
+---
+
+## 📋 Roadmap
+
+See the [PROJECT_ROADMAP.md](PROJECT_ROADMAP.md) for planned features and improvements.
+
+**Upcoming Features:**
+- [ ] Save and share trip itineraries
+- [ ] Multi-destination trip planning
+- [ ] Budget calculator integration
+- [ ] Weather forecast integration
+- [ ] Interactive maps with route visualization
+- [ ] Social features: Share trips with friends
+- [ ] Mobile app (React Native)
+- [ ] Offline mode support
 
 ---
 
@@ -183,28 +321,45 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Chet**
+**Chethana G (Chet)**
 
-- GitHub: [@chetx27](https://github.com/chetx27)
-- Project Link: [https://github.com/chetx27/ai-trip-planner](https://github.com/chetx27/ai-trip-planner)
+- 🐙 GitHub: [@chetx27](https://github.com/chetx27)
+- 📧 Email: chethana.workspace@gmail.com
+- 🔗 Project Link: [AI Trip Planner](https://github.com/chetx27/ai-trip-planner)
 
 ---
 
 ## 🙏 Acknowledgments
 
-- Google AI Studio for the Gemini API
-- React Three Fiber for amazing 3D capabilities
-- Framer Motion for smooth animations
-- All contributors who help improve this project
+- [Google AI Studio](https://makersuite.google.com/) - Gemini API for AI-powered itineraries
+- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) - Amazing 3D capabilities
+- [Framer Motion](https://www.framer.com/motion/) - Smooth animations
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- All contributors who help improve this project! 🌟
 
 ---
 
 ## 📞 Support
 
-If you have any questions or need help, please:
-- Open an [issue](https://github.com/chetx27/ai-trip-planner/issues)
-- Star ⭐ this repository if you find it helpful!
+### Need Help?
+
+- 📖 Check the [Documentation](./docs)
+- 🐛 [Report a Bug](https://github.com/chetx27/ai-trip-planner/issues/new?template=bug_report.md)
+- 💡 [Request a Feature](https://github.com/chetx27/ai-trip-planner/issues/new?template=feature_request.md)
+- 💬 [Start a Discussion](https://github.com/chetx27/ai-trip-planner/discussions)
+
+### Show Your Support
+
+Give a ⭐ if this project helped you!
+
+[![Star History Chart](https://api.star-history.com/svg?repos=chetx27/ai-trip-planner&type=Date)](https://star-history.com/#chetx27/ai-trip-planner&Date)
 
 ---
 
-**Made with ❤️ by Chet**
+<div align="center">
+
+**Made with ❤️ by [Chet](https://github.com/chetx27)**
+
+*Happy Trip Planning!* ✈️🌍
+
+</div>
