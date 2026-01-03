@@ -1,4 +1,4 @@
-# AI Trip Planner ✈️
+# AI Trip Planner
 
 <div align="center">
 
@@ -12,13 +12,13 @@
 
 Plan your perfect trip with customizable modes, transportation options, and intelligent itinerary generation
 
-[Demo](#-demo) • [Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Contributing](#-contributing)
+[Demo](#demo) • [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Contributing](#contributing)
 
 </div>
 
 ---
 
-## 🎥 Demo
+## Demo
 
 > **Note:** Add a demo GIF or screenshot here to showcase your app!
 > 
@@ -32,47 +32,47 @@ Plan your perfect trip with customizable modes, transportation options, and inte
 > 2. Convert to GIF using [ezgif.com](https://ezgif.com/)
 > 3. Add to `docs/` folder and update the link above
 
-### ✨ What Makes This Special?
+### What Makes This Special?
 
-- 🎯 **Smart Itineraries**: AI-powered trip planning tailored to your preferences
-- 🌍 **Flexible Options**: Customize by travel mode, budget, and accommodation
-- 🎨 **Stunning 3D UI**: Immersive interface with Three.js and React Three Fiber
-- ⚡ **Lightning Fast**: Instant generation with optimized performance
-- 📱 **Fully Responsive**: Perfect experience on any device
+- **Smart Itineraries**: AI-powered trip planning tailored to your preferences
+- **Flexible Options**: Customize by travel mode, budget, and accommodation
+- **Stunning 3D UI**: Immersive interface with Three.js and React Three Fiber
+- **Lightning Fast**: Instant generation with optimized performance
+- **Fully Responsive**: Perfect experience on any device
 
 ---
 
-## 🚀 Features
+## Features
 
 ### Core Functionality
-- ✅ **Customizable Travel Modes**
-  - 🎓 Student Mode: Budget-friendly options and hostels
-  - 👨‍👩‍👧‍👦 Family Mode: Family-friendly activities and accommodations
-  - 💼 Business Mode: Professional stays and efficient itineraries
+- **Customizable Travel Modes**
+  - Student Mode: Budget-friendly options and hostels
+  - Family Mode: Family-friendly activities and accommodations
+  - Business Mode: Professional stays and efficient itineraries
 
-- ✅ **Transportation Options**
-  - 🚂 Train
-  - 🚗 Road Trip
-  - 🚌 Bus
-  - 🚕 Cab/Taxi
+- **Transportation Options**
+  - Train
+  - Road Trip
+  - Bus
+  - Cab/Taxi
 
-- ✅ **Accommodation Choices**
-  - 🏠 Hostel
-  - 🏨 Motel
-  - 🏩 Hotel
-  - ⭐ Luxury Hotel
+- **Accommodation Choices**
+  - Hostel
+  - Motel
+  - Hotel
+  - Luxury Hotel
 
 ### Technical Features
-- 🤖 **AI-Powered**: Google Gemini API integration for intelligent suggestions
-- 🎭 **3D Interface**: Interactive 3D elements with React Three Fiber
-- 🎬 **Smooth Animations**: Framer Motion for fluid transitions
-- 🎨 **Modern Design**: Clean UI with Tailwind CSS
-- 🧪 **Well Tested**: Comprehensive test coverage with Jest and RTL
-- ♿ **Accessible**: WCAG 2.1 compliant design
+- **AI-Powered**: Google Gemini API integration for intelligent suggestions
+- **3D Interface**: Interactive 3D elements with React Three Fiber
+- **Smooth Animations**: Framer Motion for fluid transitions
+- **Modern Design**: Clean UI with Tailwind CSS
+- **Well Tested**: Comprehensive test coverage with Jest and RTL
+- **Accessible**: WCAG 2.1 compliant design
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Technologies |
 |----------|-------------|
@@ -87,7 +87,7 @@ Plan your perfect trip with customizable modes, transportation options, and inte
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 
@@ -139,7 +139,7 @@ The app will automatically open at [http://localhost:3000](http://localhost:3000
 
 ---
 
-## 🎯 Usage
+## Usage
 
 ### Planning Your Trip
 
@@ -181,7 +181,7 @@ Accommodation: Luxury Hotel
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Deploy to Vercel (Recommended)
 
@@ -224,7 +224,7 @@ npm run deploy
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -244,7 +244,7 @@ npm test -- --watch
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ai-trip-planner/
@@ -265,7 +265,7 @@ ai-trip-planner/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions make the open-source community amazing! Any contributions are **greatly appreciated**.
 
@@ -278,7 +278,7 @@ Contributions make the open-source community amazing! Any contributions are **gr
    ```
 3. **Commit your Changes**
    ```bash
-   git commit -m '✨ Add some AmazingFeature'
+   git commit -m 'Add some AmazingFeature'
    ```
 4. **Push to the Branch**
    ```bash
@@ -297,7 +297,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ---
 
-## 📋 Roadmap
+## Roadmap
 
 See the [PROJECT_ROADMAP.md](PROJECT_ROADMAP.md) for planned features and improvements.
 
@@ -313,44 +313,44 @@ See the [PROJECT_ROADMAP.md](PROJECT_ROADMAP.md) for planned features and improv
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👤 Author
+## Author
 
 **Chethana G (Chet)**
 
-- 🐙 GitHub: [@chetx27](https://github.com/chetx27)
-- 📧 Email: chethana.workspace@gmail.com
-- 🔗 Project Link: [AI Trip Planner](https://github.com/chetx27/ai-trip-planner)
+- GitHub: [@chetx27](https://github.com/chetx27)
+- Email: chethana.workspace@gmail.com
+- Project Link: [AI Trip Planner](https://github.com/chetx27/ai-trip-planner)
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Google AI Studio](https://makersuite.google.com/) - Gemini API for AI-powered itineraries
 - [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) - Amazing 3D capabilities
 - [Framer Motion](https://www.framer.com/motion/) - Smooth animations
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- All contributors who help improve this project! 🌟
+- All contributors who help improve this project!
 
 ---
 
-## 📞 Support
+## Support
 
 ### Need Help?
 
-- 📖 Check the [Documentation](./docs)
-- 🐛 [Report a Bug](https://github.com/chetx27/ai-trip-planner/issues/new?template=bug_report.md)
-- 💡 [Request a Feature](https://github.com/chetx27/ai-trip-planner/issues/new?template=feature_request.md)
-- 💬 [Start a Discussion](https://github.com/chetx27/ai-trip-planner/discussions)
+- Check the [Documentation](./docs)
+- [Report a Bug](https://github.com/chetx27/ai-trip-planner/issues/new?template=bug_report.md)
+- [Request a Feature](https://github.com/chetx27/ai-trip-planner/issues/new?template=feature_request.md)
+- [Start a Discussion](https://github.com/chetx27/ai-trip-planner/discussions)
 
 ### Show Your Support
 
-Give a ⭐ if this project helped you!
+Give a star if this project helped you!
 
 [![Star History Chart](https://api.star-history.com/svg?repos=chetx27/ai-trip-planner&type=Date)](https://star-history.com/#chetx27/ai-trip-planner&Date)
 
@@ -358,8 +358,8 @@ Give a ⭐ if this project helped you!
 
 <div align="center">
 
-**Made with ❤️ by [Chet](https://github.com/chetx27)**
+**Made with love by [Chet](https://github.com/chetx27)**
 
-*Happy Trip Planning!* ✈️🌍
+*Happy Trip Planning!*
 
 </div>
