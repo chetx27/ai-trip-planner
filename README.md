@@ -800,36 +800,6 @@ git push origin feature/your-feature-name
 
 ---
 
-## Roadmap
-
-### Version 1.1 (Q1 2026)
-- [ ] Save and export itineraries as PDF
-- [ ] User authentication and profile management
-- [ ] Itinerary sharing via unique links
-- [ ] Weather forecast integration
-- [ ] Currency converter for budget planning
-
-### Version 1.2 (Q2 2026)
-- [ ] Multi-destination trip planning
-- [ ] Interactive map visualization with routes
-- [ ] Budget tracker and expense management
-- [ ] Collaborative trip planning
-- [ ] Mobile application (React Native)
-
-### Version 2.0 (Q3 2026)
-- [ ] AI-powered travel recommendations based on history
-- [ ] Integration with booking platforms (hotels, flights)
-- [ ] Real-time travel alerts and notifications
-- [ ] Offline mode with local storage
-- [ ] Social features: Share experiences and reviews
-
-### Future Considerations
-- [ ] Integration with calendar applications
-- [ ] Virtual tour experiences with VR
-- [ ] Machine learning for personalized suggestions
-- [ ] Multi-language support
-- [ ] Voice-controlled interface
-
 **Feature Requests**  
 Have an idea? [Submit a feature request](https://github.com/chetx27/ai-trip-planner/issues/new?template=feature_request.md)
 
@@ -850,10 +820,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-**Chethana G (Chet)**
+**Chethana G**
 
-- **GitHub**: [@chetx27](https://github.com/chetx27)
-- **Email**: chethana.workspace@gmail.com
+- **GitHub**: https://github.com/chetx27
 - **Project Repository**: [AI Trip Planner](https://github.com/chetx27/ai-trip-planner)
 
 **Project Links:**
@@ -891,11 +860,6 @@ This project was built with the help of amazing open-source tools and platforms:
 - [Vercel](https://vercel.com/) - Frontend deployment platform
 - [Netlify](https://www.netlify.com/) - Web hosting platform
 - [GitHub Pages](https://pages.github.com/) - Static site hosting
-
-**Community**
-- All contributors who have helped improve this project
-- The React and Three.js communities for excellent documentation
-- Open source maintainers whose work made this possible
 
 ---
 
@@ -944,12 +908,6 @@ Submit pull requests to improve the project
 Support ongoing development (coming soon)
 
 ---
-
-<div align="center">
-
-**Built with passion by [Chethana G](https://github.com/chetx27)**
-
-*Empowering travelers with intelligent planning tools*
 
 [![GitHub Stars](https://img.shields.io/github/stars/chetx27/ai-trip-planner?style=social)](https://github.com/chetx27/ai-trip-planner)
 [![GitHub Forks](https://img.shields.io/github/forks/chetx27/ai-trip-planner?style=social)](https://github.com/chetx27/ai-trip-planner)
