@@ -915,3 +915,43 @@ Support ongoing development (coming soon)
 [Back to Top](#ai-trip-planner)
 
 </div>
+
+---
+
+## Full-Stack Local Development
+
+This repository now includes a backend API (`server/index.js`) and a React frontend.
+
+### 1) Install dependencies
+
+```bash
+npm install
+```
+
+### 2) Run backend
+
+```bash
+npm run start:server
+```
+
+### 3) Run frontend (in another terminal)
+
+```bash
+npm start
+```
+
+- Frontend: `http://localhost:3000`
+- Backend: `http://localhost:5000`
+- Health check: `GET http://localhost:5000/api/health`
+- Plan generator: `POST http://localhost:5000/api/plan`
+
+### 4) Optional Gemini API key
+
+Create a `.env` file in the project root:
+
+```bash
+GEMINI_API_KEY=your_api_key_here
+PORT=5000
+```
+
+If `GEMINI_API_KEY` is missing, the API still works with a fallback sample itinerary so the full-stack flow remains functional.
