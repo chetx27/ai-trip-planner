@@ -55,7 +55,8 @@
     "test:coverage": "react-scripts test --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.{js,jsx}",
-    "format": "prettier --write src/**/*.{js,jsx,json,css,md}"
+    "format": "prettier --write src/**/*.{js,jsx,json,css,md}",
+    "start:server": "node server/index.js"
   },
   "eslintConfig": {
     "extends": [
